@@ -1,0 +1,33 @@
+==============================================
+    MAC 16-BIT BASELINE SIGN-OFF (UTIL 45%)   
+==============================================
+
+Die Area            : 0.053297626024999996 mm^2
+Synthesized Cells   : 2199
+Core Utilization    : 46.97 %
+Total Wirelength    : 72325 um
+Setup Slack (WNS)   : 0.0 ns
+Total Slack (TNS)   : 0.0 ns
+
+----------------------------------------------
+MANUFACTURABILITY & SIGNOFF SUMMARY:
+----------------------------------------------
+Design Name: mac_16bit
+Run Directory: /openlane/designs/mac_16bit/runs/run_final_signoff
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/mac_16bit/runs/run_final_signoff/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/mac_16bit/runs/run_final_signoff/logs/signoff/43-mac_16bit.lef.lvs.log
+Number of nets: 2399                       |Number of nets: 2399                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/mac_16bit/runs/run_final_signoff/logs/signoff/45-arc.log
+Pin violations: 0
+Net violations: 0

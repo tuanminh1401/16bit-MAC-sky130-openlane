@@ -1,0 +1,33 @@
+==============================================
+    MAC 16-BIT COMPACT SIGN-OFF (UTIL 60%)    
+==============================================
+
+Die Area            : 0.040850044625 mm^2
+Synthesized Cells   : 2199
+Core Utilization    : 62.45 %
+Total Wirelength    : 68148 um
+Setup Slack (WNS)   : 0.0 ns
+Total Slack (TNS)   : 0.0 ns
+
+----------------------------------------------
+MANUFACTURABILITY & SIGNOFF SUMMARY:
+----------------------------------------------
+Design Name: mac_16bit
+Run Directory: /openlane/designs/mac_16bit/runs/run_density_60
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/mac_16bit/runs/run_density_60/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/mac_16bit/runs/run_density_60/logs/signoff/43-mac_16bit.lef.lvs.log
+Number of nets: 2427                       |Number of nets: 2427                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/mac_16bit/runs/run_density_60/logs/signoff/45-arc.log
+Pin violations: 0
+Net violations: 0

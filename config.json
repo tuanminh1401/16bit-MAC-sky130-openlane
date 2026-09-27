@@ -1,0 +1,23 @@
+{
+    "DESIGN_NAME": "mac_16bit",
+    "VERILOG_FILES": "dir::src/mac_16bit.sv",
+
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "BASE_SDC_FILE": "dir::src/mac_16bit.sdc",
+
+    "DESIGN_IS_CORE": 0,
+    "FP_ASPECT_RATIO": 1.0,
+    "FP_CORE_UTIL": 70,
+    "PL_TARGET_DENSITY": 0.75,
+
+    "SYNTH_STRATEGY": "AREA 0",
+    "SYNTH_MAX_FANOUT": 5,
+    "FP_PDN_MULTILAYER": 0,
+    "RT_MAX_LAYER": "met4",
+
+    "GRT_REPAIR_ANTENNAS": 1,
+    "RUN_HEURISTIC_DIODE_INSERTION": 1,
+    "DIODE_INSERTION_STRATEGY": 4,
+    "DIODE_ON_PORTS": "in"
+}

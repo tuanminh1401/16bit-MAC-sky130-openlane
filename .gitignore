@@ -1,0 +1,7 @@
+*.vcd
+*.vpd
+*.dump
+*~
+*.swp
+.DS_Store
+runs/

@@ -1,0 +1,23 @@
+=========================================================================================
+   16-BIT MAC PHYSICAL DESIGN - DESIGN SPACE EXPLORATION (DSE) REPORT   
+   Process: SkyWater 130nm | Flow: OpenLane / OpenROAD                  
+=========================================================================================
+Metric / Criteria          | Run 45% (Base)     | Run 60% (Optimal)  | Run 70% (Stress)  
+-----------------------------------------------------------------------------------------
+Die Area (mm^2)            | 0.0533             | 0.0409             | 0.0355            
+Core Utilization (%)       | 46.97              | 62.45              | 72.92             
+Total Wirelength (um)      | 72325              | 68148              | 68105             
+Synthesized Cells          | 2199               | 2199               | 2199              
+Setup Slack WNS (ns)       | 0.0                | 0.0                | 0.0               
+Total Slack TNS (ns)       | 0.0                | 0.0                | 0.0               
+Magic DRC Violations       | 0                  | 0                  | 0                 
+Netgen LVS Status          | Clean              | Clean              | Clean             
+Antenna Violations         | 0                  | 0                  | 1                 
+-----------------------------------------------------------------------------------------
+
+NHẬN XÉT KỸ THUẬT & PHÂN TÍCH ĐÁNH ĐỔI (TRADE-OFF):
+1. Mốc 45% (Baseline): Vùng an toàn tuyệt đối, thoáng layout nhưng lãng phí diện tích silicon.
+2. Mốc 60% (Sweet Spot): Giảm ~23.3% Die Area, rút ngắn ~5.8% Wirelength, tự động chèn 13 Hold buffers
+   để dập tắt hold violation, duy trì sạch 100% DRC / LVS / Antenna ở xung nhịp 100 MHz.
+3. Mốc 70% (Congestion Cliff): Chạm ngưỡng giới hạn vật lý; diện tích co lại tối đa nhưng cạn kiệt
+   khoảng trống (whitespace starvation), dẫn đến 1 vi phạm Antenna tại cổng or2b_1 (Net _1112_).

@@ -23,7 +23,7 @@ The **60% utilization variant** was successfully qualified as the **Golden Tape-
 | Full Die Layout (60% Optimal Utilization) | Detailed Standard Cells & Routing Macro |
 | :---: | :---: |
 | ![Full Die Layout](docs/layout_full.png) | ![Macro Zoom Layout](docs/layout_macro.png) |
-| *Macro boundary ($prBoundary$), power rings, and balanced pin routing.* | *Active diffusion, poly gates, orthogonal routing ($li1$, $met1$, $met2$), and antenna diodes.* |
+| *Macro boundary (prBoundary), power rings, and balanced pin routing.* | *Active diffusion, poly gates, orthogonal routing (li1, met1, met2), and antenna diodes.* |
 
 ---
 
